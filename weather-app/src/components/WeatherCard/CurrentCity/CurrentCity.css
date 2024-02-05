@@ -1,0 +1,59 @@
+.current-city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-height: 85%;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+}
+.current-city.cloudy{
+    background: url('./Background-asset/Cloudy_day_background.png'),linear-gradient(rgba(139,156,241,255),20%, rgba(85,95,236,255));
+    background-size: cover;
+}
+
+.date{
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    top: 15%;
+}
+.temperature{
+    font-size: 5rem;
+    font-weight: 1000;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+}
+.temperature-range{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    top: 42%;
+}
+.weather-icon{
+    background-image: url('./Weathericon-asset/Cloudy_day.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1800px;
+    height: 180px;
+    position: absolute;
+    top: 40%;
+}

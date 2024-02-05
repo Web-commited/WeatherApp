@@ -1,7 +1,7 @@
 import React from "react";
 
-const TemperatureRange = () => {
-    return <div>TemperatureRange_component</div>
+const TemperatureRange = ({ TemperatureRange }) => {
+    return <div>18~20</div>
 }
 
 export default TemperatureRange

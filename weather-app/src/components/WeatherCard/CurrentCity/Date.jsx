@@ -1,7 +1,7 @@
 import React from "react";
 
 const Date = () => {
-    return <div>Date_component</div>
+    return <div>01 January, Sunday 11:00</div>
 }
 
 export default Date

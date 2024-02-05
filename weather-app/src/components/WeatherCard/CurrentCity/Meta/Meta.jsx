@@ -3,15 +3,16 @@ import Windspeed from "./Windspeed";
 import Air from "./Air";
 import Somatosensory from "./Somatosensory";
 import Humidity from "./Humidity";
+import "./Meta.css";
 
-const Meta = () => {
-    return (<div>
-        <Humidity />
-        <Windspeed />
-        <Air />
-        <Somatosensory />
+const Meta = ({ humidity, windspeed, air, somatosensory }) => {
+    return (<ul className="meta">
+        <Humidity Humidity={humidity} />
+        <Windspeed windspeed={windspeed} />
+        <Air Air={air} />
+        <Somatosensory Somatosensory={somatosensory} />
 
-    </div>)
+    </ul>)
 }
 
 export default Meta

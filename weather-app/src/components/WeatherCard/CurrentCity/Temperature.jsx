@@ -1,7 +1,7 @@
 import React from "react";
 
 const Temperature = () => {
-    return <div>Temperature</div>
+    return <div>20</div>
 }
 
 export default Temperature

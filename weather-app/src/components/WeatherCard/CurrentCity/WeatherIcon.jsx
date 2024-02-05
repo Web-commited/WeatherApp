@@ -1,7 +1,7 @@
 import React from "react";
 
 const Weathericon = () => {
-    return <div>Weathericon</div>
+    return <div></div>
 }
 
 export default Weathericon
