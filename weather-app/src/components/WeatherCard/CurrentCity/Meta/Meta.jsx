@@ -5,12 +5,12 @@ import Somatosensory from "./Somatosensory";
 import Humidity from "./Humidity";
 import "./Meta.css";
 
-const Meta = ({ humidity, windspeed, air, somatosensory }) => {
+const Meta = (props) => {
     return (<ul className="meta">
-        <Humidity Humidity={humidity} />
-        <Windspeed windspeed={windspeed} />
-        <Air Air={air} />
-        <Somatosensory Somatosensory={somatosensory} />
+        <Humidity humidity={props.humidity} />
+        <Windspeed windspeed={props.windspeed} />
+        <Air airquality={props.airquality} />
+        <Somatosensory somatosensory={props.somatosensory} />
 
     </ul>)
 }

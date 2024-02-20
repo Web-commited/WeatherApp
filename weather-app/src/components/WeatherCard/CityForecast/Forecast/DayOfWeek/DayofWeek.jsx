@@ -4,7 +4,8 @@ import Weathericon from './Weathericon'
 import TemperatureRange from './TemperatureRange'
 import Date from './Date'
 
-export default function DayofWeek() {
+
+export const DayofWeek = () => {
     return (
         <div>
             <Name />
@@ -12,6 +13,5 @@ export default function DayofWeek() {
             <TemperatureRange />
             <Date />
         </div>
-
     )
 }

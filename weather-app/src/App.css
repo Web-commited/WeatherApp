@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(AlimamaFangYuanTiVF-Thin.woff2);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: myFirstFont;
 }
 
 body{

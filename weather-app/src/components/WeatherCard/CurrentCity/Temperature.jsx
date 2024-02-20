@@ -1,7 +1,9 @@
 import React from "react";
 
-const Temperature = () => {
-    return <div>20</div>
+const Temperature = (props) => {
+    return <div>
+        {props.temperature}°
+    </div>
 }
 
 export default Temperature

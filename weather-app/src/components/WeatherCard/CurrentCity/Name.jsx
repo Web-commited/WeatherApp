@@ -1,7 +1,7 @@
 import React from "react";
 
-const Name = () => {
-    return <div>New York</div>
+const Name = ({ currentname }) => {
+    return <div>{currentname}</div>
 }
 
 export default Name

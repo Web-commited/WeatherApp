@@ -3,20 +3,44 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 30px;
+    margin-left: 30px;
     padding: 20px;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    width: 30%;
     min-height: 85%;
     max-width: 300px;
     text-align: center;
     position: relative;
 }
+.current-city.sunny{
+    background: url('./Background-asset/Sunny_day_background.png'),linear-gradient(rgba(144,181,253,255),20%, rgba(61,127,249,255));
+    background-size: cover;
+}
+
 .current-city.cloudy{
     background: url('./Background-asset/Cloudy_day_background.png'),linear-gradient(rgba(139,156,241,255),20%, rgba(85,95,236,255));
     background-size: cover;
 }
+
+.current-city.cloudy-day{
+    background: url('./Background-asset/Cloudy_day_background.png'),linear-gradient(rgba(139,156,241,255),20%, rgba(85,95,236,255));
+    background-size: cover;
+}
+
+.current-city.rain{
+    background: url('./Background-asset/Rain_background.png'),linear-gradient(rgba(106,126,235,255),20%, rgba(63,85,228,255));
+    background-size: cover;
+}
+.current-city.snow{
+    background: url('./Background-asset/Snow_background.png'),linear-gradient(rgba(125,142,234,255),20%, rgba(95,76,220,255));
+    background-size: cover;
+}
+.current-city.hail{
+    background: url('./Background-asset/Hail_background.png'),linear-gradient(rgba(136,166,240,255),20%, rgba(95,76,220,255));
+    background-size: cover;
+}
+
 
 .date{
     font-size: 0.8rem;
@@ -40,6 +64,14 @@
     position: absolute;
     top: 25%;
 }
+.temperaturesymbol{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 100%;
+}
 .temperature-range{
     font-size: 0.9rem;
     font-weight: 600;
@@ -48,10 +80,6 @@
     top: 42%;
 }
 .weather-icon{
-    background-image: url('./Weathericon-asset/Cloudy_day.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 1800px;
     height: 180px;
     position: absolute;

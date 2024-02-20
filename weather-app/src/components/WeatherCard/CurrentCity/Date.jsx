@@ -1,7 +1,7 @@
 import React from "react";
 
-const Date = () => {
-    return <div>01 January, Sunday 11:00</div>
+const Date = (props) => {
+    return <div>{props.currentdate}</div>
 }
 
 export default Date
